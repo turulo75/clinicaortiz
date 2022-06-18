@@ -1,0 +1,66 @@
+@media (max-width:768px){
+
+    /* ----------------------------------*/
+    /* -----------   Index   ----------- */
+    /* ----------------------------------*/
+    
+    .cintados{
+        display: grid;
+    /*     background-color: rgb(0, 0, 0); */
+       &col{    
+            /* width: 100px; */
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            color:$color-ter;
+        }
+        svg{
+            display: block;
+            margin: 0px auto;
+            width: 20%;
+            height: 100px;
+            text-align: center;
+        }
+        
+        a{
+            display: inline-block;
+            padding: 10px 0;
+            text-transform: uppercase;
+            font-size: $tamano-sec;
+            font-weight: bold;
+            color: $color-ter;
+        }
+     
+        p{
+            font-size: $tamano-sec;
+            font-style: normal;
+            text-align: justify;
+            padding: .4rem;
+            color: $color-ter;
+        }
+       /*  &container{
+            width: 150px;
+        } */
+    }
+    
+    
+    .col iframe{
+        width: 630px;
+        /* width: 28vmax; */
+        height: 25vh;
+    }
+    }
+
+    /* ----------------------------------*/
+/* ---------  Servicios   ---------- */
+/* ----------------------------------*/
+.container p {
+    text-align: justify;
+    color: #fbf7f7;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 12px;}
+
+
+
