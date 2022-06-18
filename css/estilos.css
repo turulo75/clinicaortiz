@@ -149,7 +149,24 @@ col, li iframe {
   text-align: center;
   padding-bottom: 20px; }
 
-/* @each $key, */
+.key1-card-img-top {
+  background-image: url("../recursos/Medico1.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 200px; }
+
+.key2-card-img-top {
+  background-image: url("../recursos/Medico2.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 200px; }
+
+.key3-card-img-top {
+  background-image: url("../recursos/Medico3.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 200px; }
+
 @media (max-width: 768px) {
   /* ----------------------------------*/
   /* -----------   Index   ----------- */

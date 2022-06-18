@@ -1,2 +1,9 @@
-$imagenes: (key1:"");
-/* @each $key, */
+$imagenes: (key1: Medico1, key2: Medico2, key3: Medico3);
+ @each $key, $imagen in $imagenes{
+     .#{$key}-card-img-top{
+         background-image: url('../recursos/#{$imagen}.jpg');
+         background-size: cover;
+         width: 300px;
+         height: 200px;
+     }
+ }
